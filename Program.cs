@@ -8,6 +8,12 @@
         // ShowStringType();
         // SalesReport();
         // SalaryCalculator();
-        ShowDateTime();
+        // ShowDateTime();
+        // DaysOfLife();
+        // DaysUntilNextBirthday();
+        // TypesDifference();
+        // HandleNullable();
+        // Operators();
+        Arrays();
     }
 }
