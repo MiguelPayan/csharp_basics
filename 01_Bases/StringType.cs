@@ -13,11 +13,19 @@ partial class Program
         // String interpolation instead of concatenation
         string message = $"Welcome to C#, {name}!";
 
+        //String with multiple lines using @ 
+        string severalLines = @"Welcome to C#, 
+        regards from another line!
+        This is a string with multiple lines.";
+
+        severalLines += "\nThis is another line added to the string.";
+
         Console.WriteLine(greeting);
         Console.WriteLine(message);
         Console.WriteLine($"Your name has {name.Length} letters.");
         Console.WriteLine($"Your name in uppercase is {name.ToUpper()}");
         Console.WriteLine($"Your name in lowercase is {name.ToLower()}");
+        Console.WriteLine(severalLines);
 
         int number = 22;
         Console.WriteLine(number.ToString());
